@@ -29,62 +29,59 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">The Seagull</dc:title>
 		<meta property="file-as" refines="#title">Seagull, The</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<meta property="title-type" refines="#title">main</meta>
+		<meta property="dcterms:alternative" refines="#title">The Sea-Gull</meta>
+		<dc:title id="subtitle">A Comedy in Four Acts</dc:title>
+		<meta property="file-as" refines="#subtitle">Comedy in Four Acts, A</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">The Seagull: A Comedy in Four Acts</dc:title>
+		<meta property="file-as" refines="#fulltitle">The Seagull: A Comedy in Four Acts</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<dc:subject id="subject-1">Chekhov, Anton Pavlovich, 1860-1904--Translations into English</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
-		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="term" refines="#subject-1">Unknown</meta>
+		<meta property="se:subject">Comedy</meta>
+		<meta property="se:subject">Drama</meta>
+		<dc:description id="description">A has-been actress, her aspiring playwright son, a male story writer, and an aspiring young actress struggle to realize their romantic and artistic ambitions.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			<p>A fading actress, Madame Irina Nikolayevna Arkadin, visits her brother’s country estate, where her son, Konstantin Gavrilovitch Treplev, stages an avant-garde play in an attempt to realize his artistic ambitions. The play stars the woman he is in love with, Nina Mihailovna Zaretchny, an aspiring actress with restrictive parents. Meanwhile, Masha, the daughter of the estate manager, pines for Treplev, while a local schoolteacher, Medvedenko, pines for Masha. Trigorin, a novelist, accompanies Madame Arkadin, but then attracts Nina’s attention.</p>
+			<p>Some characters desire love, some desire artistic success, and some desire both. But over the course of the play, they’ll discover that happiness can be difficult to find.</p>
+			<p><i>The Seagull</i>, published in 1895, is considered to be the first of <a href="https://standardebooks.org/ebooks/anton-chekhov">Anton Chekov’s</a> four major plays. In contrast to most mainstream 19th-century plays, which were melodramatic, most of the characters speak in subtext. The opening night of the play in 1896 was famously a failure, which made Chekhov want to abandon writing plays. However, when it was produced in 1898 by Konstantin Stanislavski, the seminal Russian theater practitioner of the time, the play became a huge success, and as a result, Chekhov continued to write plays. While some productions have caused the play to be viewed as a tragedy, Chekhov always considered <i>The Seagull</i> to be a comedy. <i>The Seagull</i> is one of Chekhov’s most famous plays, and continues to be performed to the present day.</p>
 		</meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>PG_URL</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:language>en-GB</dc:language>
+		<dc:source>https://catalog.hathitrust.org/Record/102691823</dc:source>
+		<dc:source>https://archive.org/details/dli.ministry.11074/</dc:source>
+		<meta property="se:production-notes">The Internet Archive scans were used when the HathiTrust scans either were poorly scanned or had certain printer's typos.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Seagull</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/anton-chekhov_the-seagull_constance-garnett</meta>
 		<dc:creator id="author">Anton Chekhov</dc:creator>
 		<meta property="file-as" refines="#author">Chekhov, Anton</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">CONTRIBUTOR_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:name.person.full-name" refines="#author">Anton Pavlovich Chekhov</meta>
+		<meta property="alternate-script" refines="#author">Антон Павлович Чехов</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Anton_Chekhov</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79130807</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">Constance Garnett</dc:contributor>
 		<meta property="file-as" refines="#translator">Garnett, Constance</meta>
-		<meta property="se:name.person.full-name" refines="#translator">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">CONTRIBUTOR_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:name.person.full-name" refines="#translator">Constance Clara Garnett</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Constance_Garnett</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n50015174</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Jules Breton</dc:contributor>
+		<meta property="file-as" refines="#artist">Breton, Jules</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Jules_Breton</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n82118660</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER_1</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_1_URL</meta>
-		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">TRANSCRIBER_2</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_2_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-2">TRANSCRIBER_2_URL</meta>
-		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
-		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdp.net/</meta>
-		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Devin O'Bannon</dc:contributor>
+		<meta property="file-as" refines="#producer-1">O'Bannon, Devin</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 	</metadata>
 	<manifest>
