@@ -74,8 +74,8 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Jules_Breton</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n82118660</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="producer-1">Devin O'Bannon</dc:contributor>
-		<meta property="file-as" refines="#producer-1">O'Bannon, Devin</meta>
+		<dc:contributor id="producer-1">Devin O’Bannon</dc:contributor>
+		<meta property="file-as" refines="#producer-1">O’Bannon, Devin</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
